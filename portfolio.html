@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | ZXHDO</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ZXHDO</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Project Specs</a></li>
+                <li><a href="quote.html">Quote</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="portfolio-section">
+        <div class="container">
+            <h1 id="portfolio-title">Our Iconic Projects</h1>
+            <button id="back-btn" class="back-btn" style="display: none;">← Back to Gallery</button>
+            
+            <div class="portfolio-grid" id="portfolio-grid">
+                <div class="project-card cover" data-category="future">
+                    <img src="images/projectData/future_cover.jpeg" alt="Future Projects">
+                    <div class="project-info">
+                        <h3>Future Projects</h3>
+                        <p>Future project in progress</p>
+                    </div>
+                </div>
+
+                <div class="project-card cover" data-category="roads">
+                    <img src="images/projectData/roads_cover.jpeg" alt="Roads and Interior">
+                    <div class="project-info">
+                        <h3>Roads & Interior</h3>
+                        <p>Infrastructure & Design</p>
+                    </div>
+                </div>
+
+                <div class="project-card cover" data-category="homes">
+                    <img src="images/projectData/homes_cover.jpeg" alt="Home Projects">
+                    <div class="project-info">
+                        <h3>Home Projects</h3>
+                        <p>Residential Construction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="javascript/portfolio.js"></script>
+</body>
+</html>
