@@ -2,54 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Inter', sans-serif;
-    background-color: #1a1a1a;
-    color: white;
 }
 
-/* Navigation */
-nav {
+body { background-color: #fcfcfc; }
+
+.navbar {
+    background-color: #1a1a1a;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
-    background: transparent;
-    position: absolute;
-    width: 100%;
-    z-index: 10;
+    padding: 20px 5%;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #f39c12; /* Brand Orange */
-    letter-spacing: 2px;
-}
+.logo { color: #f39c12; font-size: 24px; font-weight: bold; }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-}
+.nav-links { list-style: none; display: flex; }
 
-.nav-links li {
-    margin-left: 30px;
-}
-
-.nav-links a {
+.nav-links li a {
+    color: rgb(122, 69, 69);
     text-decoration: none;
-    color: rgb(242, 242, 242);
-    font-size: 16px;
-    transition: 0.3s;
+    margin-left: 20px;
+    font-size: 14px;
 }
 
-.nav-links a:hover, .nav-links a.active {
-    color: #f39c12;
-}
-
-
+.nav-links li a.active { color: #f39c12; }
 
 .portfolio-section { padding: 80px 5%; text-align: center; }
 
