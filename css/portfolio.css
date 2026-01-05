@@ -5,10 +5,10 @@
     font-family: 'Inter', sans-serif;
 }
 
-body { background-color: black; }
+body { background-color: #fcfcfc; }
 
 .navbar {
-    background-color: black;
+    background-color: #fcfcfc;
     display: flex;
     justify-content: space-between;
     align-items: center;
