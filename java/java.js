@@ -54,3 +54,5 @@ backBtn.addEventListener('click', () => {
     title.innerText = "Our Iconic Projects";
     backBtn.style.display = 'none';
 });
+
+document.querySelector("quote-heading").style.color = "rgb(164, 71, 71)";
